@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Kendo Grid with AngularJS</title>
+    <!-- Include Kendo UI Library and AngularJS -->
+    <script src="Scripts/Kendo/jquery.min.js"></script>
+    <script src="Scripts/Kendo/angular.min.js"></script>
+    <script src="Scripts/Kendo/kendo.all.min.js"></script>
+    <script src="Scripts/angular-ui-router.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/bootstrap-4.css">
+
+</head>
+<body ng-app="App" ng-controller="AppController">
+
+    <div>
+        <div kendo-grid="grid" options="gridOptions"></div>
+    </div>
+
+    <!-- Include your scripts -->
+    <script src="App/App.js"></script>
+
+</body>
+</html>
