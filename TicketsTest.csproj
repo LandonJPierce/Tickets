@@ -93,6 +93,7 @@
     <Content Include="App\appController.js" />
     <Content Include="App\components\tickets\tickets.html" />
     <Content Include="App\components\tickets\ticketsController.js" />
+    <Content Include="App\components\tickets\ticketsService.js" />
     <Content Include="Global.asax" />
     <Content Include="Index.html" />
     <Content Include="Scripts\angular-mocks.js" />
